@@ -8,8 +8,7 @@ import lombok.RequiredArgsConstructor;
 @AllArgsConstructor
 @RequiredArgsConstructor
 public class GmEntity {
-
-    Integer gmId;
+    //    Integer gId;
     String gList;
     String gName;
     String gUnit;

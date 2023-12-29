@@ -29,7 +29,7 @@ public class GmService {
 //        request.getData().getUpdData().setUser(user);
         //check 檢查機制
 
-        GmEntity entity = GmMapper.INSTANCE.doDto2Entity(GoodsInfo, gateway);
+        GmEntity entity = GmMapper.INSTANCE.doDto2Entity(GoodsInfo);
 
         gateway.save((entity));
 

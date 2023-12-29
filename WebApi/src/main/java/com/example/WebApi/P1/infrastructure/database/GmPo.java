@@ -15,7 +15,7 @@ public class GmPo implements Serializable {
     @Id
     @Column(name = "GID")
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    Integer gmId;
+    Integer gId;
 
     @Column(name = "GLIST", unique = true)
     String gList;
@@ -62,10 +62,10 @@ public class GmPo implements Serializable {
     @Column(name = "PUR_PRICE")
     String purPrice;
 
-    @Column(name = "CRT_DATE")
+    @Column(name = "GM_CRT_DATE")
     String crtDate;
 
-    @Column(name = "DEL_FLAG", length = 1)
+    @Column(name = "GM_DEL_FLAG", length = 1)
     @Convert(converter = CharConverter.class)
     String delFlag;
 }

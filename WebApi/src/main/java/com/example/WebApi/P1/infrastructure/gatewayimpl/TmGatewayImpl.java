@@ -20,7 +20,7 @@ public class TmGatewayImpl implements TmGateway {
 
         System.out.println("Po:" + po);
 
-        var returnEntity = TmMapper.INSTANCE.dopo2Entity(po);
+        var returnEntity = TmMapper.INSTANCE.doPo2Entity(po);
 
         System.out.println("returnEntity:" + returnEntity);
 

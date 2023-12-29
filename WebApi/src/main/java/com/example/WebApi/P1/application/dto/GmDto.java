@@ -5,7 +5,9 @@ import lombok.Data;
 
 @Data
 public class GmDto {
-    
+//    @JsonProperty("gId")
+//    Integer gId;
+
     @JsonProperty("gList")
     String gList;
 

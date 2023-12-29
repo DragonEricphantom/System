@@ -8,17 +8,20 @@ import lombok.Data;
 @Table(name = "TM", schema = "Julin")
 public class TmPo {
     @Id
-    @Column(name = "TID")
+    @Column(name = "TM_ID")
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     Integer tmId;
 
-    @Column(name = "TLIST", unique = true)//202312310001
+    @Column(name = "TM_LIST", unique = true)//202312310001
     String tList;
 
-    @Column(name = "T_DATE")
+    @Column(name = "TM_SUB_CODE")
+    String tmSubCode;
+
+    @Column(name = "TM_TRADE_DATE")
     String tDate;
 
-    @Column(name = "T_CUSTOMER")
+    @Column(name = "TM_CUSTOMER")
     String tCustomer;
 
     @Column(name = "CON_PERSON")
@@ -63,10 +66,13 @@ public class TmPo {
     @Column(name = "AMOUNT_PAID")
     String amountPaid;
 
-    @Column(name = "CRT_DATE")
-    String crtDate;
+    @Column(name = "TM_CRT_DATE")
+    String tmCrtDate;
 
-    @Column(name = "DEL_FLAG")
-    String delFlag;
+    @Column(name = "TM_UPD_DATE")
+    String tmUpdDate;
+
+    @Column(name = "TM_DEL_FLAG")
+    String tmDelFlag;
 
 }

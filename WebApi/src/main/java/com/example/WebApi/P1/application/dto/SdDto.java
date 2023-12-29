@@ -12,7 +12,7 @@ public class SdDto {
     String sdDlist; //部門編號
     String sdRemark;
     String sdResign;
-    String sdBirDay;
+    String sdBirDate;
     String sdAccount;
     String sdPwd;
 }

@@ -5,7 +5,7 @@ import lombok.Data;
 @Data
 public class GcDto {
     Integer gcId;
-    String gcNumber;
+    String gcList;
     String gcName;
 
 }

@@ -14,8 +14,8 @@ public class GcPo {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     Integer gcId;
 
-    @Column(name = "GC_NUMBER")
-    String gcNumber;
+    @Column(name = "GC_LIST")
+    String gcList;
 
     @Column(name = "GC_NAME")
     String gcName;

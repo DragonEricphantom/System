@@ -15,7 +15,7 @@ public interface TmMapper {
 
     TmPo doEntity2Po(TmEntity entity);
 
-    TmEntity dopo2Entity(TmPo po);
+    TmEntity doPo2Entity(TmPo po);
 
     TmDto doEntity2Dto(TmEntity entity);
 

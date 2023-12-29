@@ -10,7 +10,7 @@ import lombok.RequiredArgsConstructor;
 public class GcEntity {
 
     Integer gcId;
-    String gcNumber;
+    String gcList;
     String gcName;
 
 }

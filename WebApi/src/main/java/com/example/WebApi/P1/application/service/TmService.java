@@ -23,9 +23,10 @@ public class TmService {
         // 設置資料創建人資訊
 //        String user = LoginUser.getAccount();
 //        request.getData().getUpdData().setUser(user);
-        //check 檢查機制
+
 
         TmEntity entity = TmMapper.INSTANCE.doDto2Entity(GoodsInfo);
+        //check 檢查機制
 
         gateway.save(entity);
 
